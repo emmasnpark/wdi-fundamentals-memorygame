@@ -23,8 +23,8 @@ h2 {
   font-size: 20px;
 }
 header {
-  background-color: black;
-  font color: #FFFFFF;
+  background-color: #F15B31;
+  font color: #ffffff;
   padding: 30px 20px;
   margin: 0;
  }
@@ -53,14 +53,6 @@ footer {
   letter-spacing: .08em;
   font-weight: 500;
 }
-.copyright {
-  font-family: raleway;
-  float: left;
-}
-.message {
-  font-family: raleway;
-  float: right;
-}
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -69,6 +61,15 @@ footer {
   height: 0;
   font-size: 0;
 }
+.copyright {
+  font-family: raleway;
+  float: left;
+}
+.message {
+  font-family: raleway;
+  float: right;
+}
+
 .name {
   color: #F15B31;
   font-weight: 700;
