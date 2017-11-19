@@ -31,7 +31,7 @@ var checkForMath = function() {
    } return
 }
 var flipCard = function() {
-  cardId = this.getAttribute('data-id');
+  var cardId = this.getAttribute('data-id');
   this.setAttribute('src', cards[cardId].cardImage);
   cardsInPlay.push(cards[cardId].rank);
   checkForMath();
